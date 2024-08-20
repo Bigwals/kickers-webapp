@@ -1,0 +1,78 @@
+.FeaturedCourtRow{
+    display: flex;
+    width: 100%;
+      flex-direction: column;
+      padding: 10px;
+      border: 1px solid#000;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      background: #f4f4f4;
+    }
+    .Display{
+        display: flex;
+        align-items: center;
+        width: 15%;
+       overflow: hidden;
+        margin-bottom: 10px;
+    }
+    .TextField{
+        margin-left: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .FeaturedSub{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width:100%;
+        text-align: center;
+        align-items: center;
+    }
+    .DetailItem{
+        display: flex;
+      flex-direction: row;
+      min-width: 100px;
+      flex: 1;
+    }
+    .DetailItem img{
+      width: 50px;
+      margin-right: 10px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    p{
+        margin-bottom: 0;
+        padding: 0;
+    }
+    h6{
+      padding: 0;
+      margin: 0;
+    }
+    .mobileFlex{
+      display: flex;
+      flex-direction: row;
+      min-width: 100px;
+      flex: 1;
+      justify-content: space-around;
+    }
+    @media (max-width: 768px) {
+      .FeaturedSub{
+        display: block;
+      }
+      .mobileFlex{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .DetailItem{
+        display: flex;
+      flex-direction: row;
+      min-width: 100px;
+      flex: 1;
+      margin-top: 10px;
+    }
+    }

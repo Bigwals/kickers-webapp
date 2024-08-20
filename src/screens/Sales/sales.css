@@ -1,0 +1,50 @@
+.SalesRow{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+   
+    margin-top: 20px;
+
+}.SalesButton{
+
+    font-family: 'Satoshi', sans-serif;
+    font-size: 18px ;
+    background: #408639;
+    padding:15px;
+    border-radius: 8px;
+    color: white;
+}
+.detitems{
+    display: flex;
+    flex-direction: row;
+    min-width: 100px;
+    flex: 1;
+    justify-content:space-between;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.detitems img{
+    width: 4%;
+}
+@media(max-width:768px){
+    .detitems img{
+        width:15%;
+    }
+    .detitems{
+        display: block;
+       
+    }
+    
+    .SalesButton{
+
+        font-family: 'Satoshi', sans-serif;
+        font-size: 11px ;
+        background: #408639;
+        padding:10px;
+        border-radius: 8px;
+        color: white;
+    }
+}

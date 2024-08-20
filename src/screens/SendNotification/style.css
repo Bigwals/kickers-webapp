@@ -1,0 +1,77 @@
+.dropdown-toggle{
+    width: 100%;
+}
+
+
+
+.row h1{
+    margin-bottom: 30px;
+}
+
+.headingText{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.innerMain{
+   
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+#dropdown-basic-button::placeholder{
+    font-family: 22px;
+}
+
+.maininput{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    /* overflow-y: auto;
+    height: 300px; */
+    text-align: start;
+}
+/* textarea{
+    height: 10rem !important;
+} */
+
+.headingText2{
+    margin-top: 40px !important;
+}
+
+#buttonAll {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 18px;
+    background: #408639;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    width: 40%;
+    border:none;
+}
+
+.buttonNotification{
+    width: 100%;
+    margin-right: 10px;
+    border: none;
+}
+.notifaction-title{
+    color: black;
+border: none ;
+border-bottom: 1px solid black ; 
+border-radius: 0 ;
+}
+@media(max-width:768px){
+    .innerMain{
+        margin-top: 40px;
+        background-color: white;
+        padding: 30px 40px;
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+}

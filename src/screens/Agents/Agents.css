@@ -1,0 +1,85 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head .headingText{
+    font-size: 32px;
+}
+
+#buttonAll{
+    text-transform: capitalize;
+    width: 100%;
+}
+
+#buyer-buttonAll {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background: #408639;
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.buyerRow {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: white;
+    border: 0.5px solid #408639;
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin-top: 10px;
+    align-items: center;
+
+}
+
+.nameImg{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headingDiv-buyer{
+    padding: 0;
+}
+
+.headingDiv-buyer h3{
+    
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Buyer-sub-div{
+    font-size: 18px;
+}
+
+.Buyer-sub-div p{
+    font-weight: 600;
+}
+
+.whitebg{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+@media (max-width: 768px) {
+    #buyer-buttonAll {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        background: #408639;
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 8px;
+        color: white;
+    }
+    .buyerRow {
+        display: block;
+    }
+    
+    
+}

@@ -1,0 +1,145 @@
+.First-col{
+    display:flex;
+    /* margin-left: 50px;
+    margin-top:20px; */
+    width: 100%;
+    justify-content: space-between;
+}
+.text-deatils{
+    width: 50%;
+}
+.buttonClass{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: end;
+    gap: 20px;
+}
+#buttonCourt{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 15px ;
+    padding: 4px 0px;
+    width:15%;
+    margin: 0;
+    height: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+#buttonCourt2{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 15px ;
+    padding: 4px 0px;
+    width: 41%;
+    margin: 0;
+    height: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+.secndDetails{
+    display: flex; 
+    align-items: center; 
+    gap: 14px;
+}
+.img{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+}.datah5{
+    font-size: 18px;
+    margin: 0;;
+}
+.turf{
+    justify-content:center;
+   
+}.detailsSecondfirst{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:40%;
+    background-color:rgb(243 244 244);
+    padding: 10px;
+    border: solid rgb(187 193 193);
+    border-radius: 15px;
+    cursor: pointer ;
+}
+.detailsSecond
+{  
+    width:40%;
+    background-color:rgb(243 244 244);
+    padding: 10px;
+    border: solid rgb(187 193 193);
+    border-radius: 15px;
+    gap: 10px;
+}
+.Details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:40%;
+    background-color:rgb(243 244 244);
+    padding: 10px;
+    border: solid rgb(187 193 193);
+    border-radius: 15px;
+    align-items: center;
+    gap: 22px;
+}
+.h5{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 15px ;
+
+}
+.detailsSecondmargin{
+    margin-top:20px;
+    width:40%;
+    background-color:rgb(243 244 244);
+    padding: 10px;
+    border: solid rgb(187 193 193);
+    border-radius: 15px;
+}
+
+
+.WhitebgCourt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 22px;
+    
+}
+.WhitebgCourt2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.WhitebgCourt3{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.DetailsPhone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:40%;
+    background-color:rgb(243 244 244);
+    padding: 10px;
+    border: solid rgb(187 193 193);
+    border-radius: 15px;
+
+}
+.status{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

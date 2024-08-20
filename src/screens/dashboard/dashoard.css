@@ -1,0 +1,23 @@
+.sidebar0div-resposnive{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 250px; 
+}
+.sidebar-dashbaord-view{
+    margin-left: 250px; /* This should match the width of your sidebar */
+    padding: 20px;
+    width: calc(100% - 250px); /* Adjust to account for the sidebar width */
+    min-height: 100vh;
+    height: auto;
+    background-color: rgb(241,242, 253);
+}
+@media (max-width:768px) {
+    .sidebar0div-resposnive{
+        width: 0% !important;
+    } .sidebar-dashbaord-view{
+        width: 100% !important;
+        margin-left: 0px; 
+    }
+}

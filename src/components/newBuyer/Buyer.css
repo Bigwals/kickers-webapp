@@ -1,0 +1,100 @@
+.buyerRow {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: #f4f4f4;
+}
+
+.display-flex-div {
+  display: flex;
+  align-items: center;
+  width: 15%;
+ overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.Buyer-sub-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+}
+.text-container {
+  margin-left: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+  flex: 1;
+}
+
+.detail-item h6 {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+}
+.Buyer-sub-div p{
+  padding-top: 5px;
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  color: gray;
+}
+.detail-item p {
+  margin: 0;
+  font-size: 14px;
+  color: gray;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+.twoCol
+{
+  display: flex;
+    flex-direction: row;
+    min-width: 100px;
+    justify-content: space-around;
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+  .buyerRow {
+    flex-direction: column;
+  }
+
+  .Buyer-sub-div {
+    justify-content: flex-start;
+  }
+
+  .display-flex-div {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .twoCol{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 480px) {
+  .detail-item {
+    min-width: 100%;
+    align-items: baseline;
+  }
+
+  .Buyer-sub-div {
+    flex-direction: coumn;
+    
+  }
+}

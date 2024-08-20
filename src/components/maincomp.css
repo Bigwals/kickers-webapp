@@ -1,0 +1,165 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    
+}
+
+.buttonNotification{
+    display: flex;
+    border:none ;
+    justify-content: end;
+    width: 60% !important;
+    margin-top: 30px !important ;
+    
+
+}
+.input{
+        /* border: darkgrey; */
+    /* border-block-end: none; */
+    border-block-start: none;
+    border-left: none;
+    border-right: none;
+    /* border: solid; */
+    border-width: thin;
+    width: 60%;
+    height: 20vh;
+    text-align: justify;
+}
+.dropdown-toggle{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    border-radius: 0px !important;
+    color: black !important;
+    width: 60% ;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center ;
+    
+    
+}
+.images{
+    width: 100%;
+    border-radius: 11px;
+    height: 180px;
+    background-image: url('https://img.freepik.com/free-photo/medium-shot-male-flight-attendant-posing_23-2150312701.jpg');
+    object-fit: cover;
+    background-size: cover;
+    background-position-y: -40px;
+    background-repeat: no-repeat;
+
+    
+}
+.main-Coponent-crd{
+    /* margin-left: 17%; */
+    
+    background-color:white;
+    padding: 10px 10px;
+    border-radius: 12px;
+   
+}
+.main-Coponent-crd-2{
+    padding: 20px 20px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    width: 35%;
+    box-shadow: 0px 0px 1px 1px;
+    background: rgb(244, 244, 244);
+}
+.headingText{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 15px;
+    
+}
+#buttonAll{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 11px ;
+    background: #408639;
+    padding:10px;
+    border-radius: 8px;
+    color: white;
+}
+.headingTextPara{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 13px;
+    margin-bottom: 0rem;
+    
+   
+    
+}
+.button{
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+}
+.buttonText{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Satoshi', sans-serif;
+font-size: 12px;
+font-weight: 600;
+width: 100%;
+}
+.headingsubtext{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:#3F3F3F
+}
+.images-buyer{
+    display: flex;  
+    align-items: center;
+    width: 32% !important;
+}
+.main-heading-buyer{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.main-heading-buyer-2{
+    font-family: 'Satoshi', sans-serif;
+    
+    font-weight: 600;
+    
+}
+.main-heading-para{
+    font-family: 'Satoshi', sans-serif;
+
+}
+.button-secnd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.button{
+    width: 50%;
+  
+}
+.sub-div{
+width: 17 !important;
+}
+.sub-div-2{
+    width:  100% !important;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.images-buyer-2{
+   
+    display: flex;  
+    align-items: top;
+}
+@media(max-width:768px){
+    .Buyer-sub-div-button{
+        width: 100% !important;
+        margin-top: 10px;
+    }
+}

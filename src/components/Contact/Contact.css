@@ -1,0 +1,75 @@
+@font-face {
+   
+    font-family: 'Medium';
+  
+    src: url('../src/components/fonts/Satoshi-Medium.ttf') format('truetype');
+  }
+.contact-form{
+   font-family: medium;
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+      /* scroll */
+  padding-top: 3rem;
+}
+.i-button {
+    align-items: center;
+    background: linear-gradient(180deg, #408639 26.71%, #408639 99.36%);
+    border: none;
+    border-radius: 34px;
+    color: #fff;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+  height: 3rem;
+    width: 150px;
+  }
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+    
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid #408639;
+    border-radius: 8px;
+    font-size: 16px;   
+}
+
+textarea{
+    height: 10rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+
+}   

@@ -1,0 +1,97 @@
+.services {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 30rem;
+  margin-bottom: 8rem;
+  margin-top: 9rem;
+  margin-bottom: 13rem;
+  /* scroll view */
+  padding-top: 3rem;
+}
+/* left side */
+@font-face {
+   
+  font-family: 'Bold';
+
+  src: url('../src/components/fonts/Satoshi-Medium.ttf') format('truetype');
+}
+
+.awesome {
+  display: flex;
+  font-family: Bold;
+  flex-direction: column;
+  position: relative;
+  /* gap: 20px; */
+}
+
+.awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(2) {
+  color: #408639;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(3) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+/* right sided */
+.cards {
+  position: relative;
+}
+.cards > * {
+  position: absolute;
+}
+
+/* blur */
+.s-blur2 {
+  left: 14rem;
+  top: 8rem;
+}
+
+.s-blur1 {
+  top: 13rem;
+  left: -18rem;
+}
+
+@media screen and (max-width: 480px) {
+  .services {
+    margin-top: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 66rem;
+    padding: 0;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 17rem;
+  }
+  .cards > * {
+    position: static;
+  }
+}
+.i-button {
+  align-items: center;
+  background: linear-gradient(180deg, #408639 26.71%, #408639 99.36%);
+  border: none;
+  border-radius: 34px;
+  color: #fff;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+height: 3rem;
+  width: 150px;
+}
+@media (max-width: 480px) {
+  .awesome{
+    text-align: center;
+  }
+
+}

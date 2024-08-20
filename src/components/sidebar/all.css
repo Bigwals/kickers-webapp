@@ -1,0 +1,42 @@
+.btn-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:20px;
+
+}
+.menu-list{
+    padding-left: 1rem !important;
+}
+.colm2{
+    width: 30%;
+}
+.modal-lg, .modal-xl{
+    width: 40rem !important;
+}
+.main-div-logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-header{
+    border: none;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+  padding-left: 0.7em;
+  margin-bottom: 1em;
+  text-decoration: none;
+}
+#dropdown-basic{
+    border: none !important;
+    color: #808191 !important;
+}
+.sidebar .menu-link{
+    text-decoration: none !important;
+}
+.sidebar .menu-link.active{
+    color: white !important;
+    background: #408639 !important ;
+}
